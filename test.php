@@ -59,7 +59,7 @@ echo urldecode("Max+%26+%2B%252B%25252BRuby");*/
 require_once("phpmailer/class.phpmailer.php");
 global $error;
 
-$mail = new PHPMailer();  // create a new object
+$mail = new PHPMailer();  // create a new object    
 $mail->IsSMTP(); // enable SMTP
 $mail->SMTPDebug = 0;  // debugging: 1 = errors and messages, 2 = messages only
 $mail->SMTPAuth = true;  // authentication enabled
